@@ -20,7 +20,7 @@ public class MessageController extends Socket {
 
     @GetMapping("/")
     public String index() {
-        return "index.html";
+        return "index";
     }
 
     @OnOpen
@@ -46,6 +46,8 @@ public class MessageController extends Socket {
                     e.printStackTrace();
                 }
             }
-        }
+        } // for E
     }
+
+
 }
