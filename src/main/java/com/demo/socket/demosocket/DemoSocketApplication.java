@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoSocketApplication {
 
     public static void main(String[] args) {
+
+        System.out.println("OVER HERE~~~~~~~~");
         SpringApplication.run(DemoSocketApplication.class, args);
     }
 
